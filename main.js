@@ -20,7 +20,7 @@ app.set('port', 3000);
 * View Handling
 ****************************************************************/
 app.get('/', function(req, res){
-   res.render('top');
+   res.render('readback');
 });
 
 
