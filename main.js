@@ -35,7 +35,7 @@ app.get('/', function(req, res){
 });
 
 
-app.post('/readback', function(req, res){
+app.post('/', function(req, res){
    var q = [];
 
    for (var p in req.query){
