@@ -19,12 +19,8 @@ app.set('port', 3000);
 /****************************************************************
 * View Handling
 ****************************************************************/
+
 app.get('/', function(req, res){
-   res.render('readback');
-});
-
-
-app.get('/readback', function(req, res){
    var q = [];
 
    for (var p in req.query){
